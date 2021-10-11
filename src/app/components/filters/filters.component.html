@@ -1,0 +1,17 @@
+<form [formGroup]="filtersForm">
+  <select [formControlName]="'sex'">
+    <option value="null">Choose sex</option>
+    <option [value]="'MALE'">
+      Male
+    </option>
+    <option [value]="'FEMALE'">
+      Female
+    </option>
+  </select>
+  <select [formControlName]="'country'">
+    <option value="null">Choose country</option>
+    <option *ngFor="let country of countries" [value]="country">
+      {{country}}
+    </option>
+  </select>
+</form>

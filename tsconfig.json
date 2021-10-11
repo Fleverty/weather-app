@@ -19,7 +19,24 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@wtr/environment": [
+        "src/environments/environment.ts"
+      ],
+      "@wtr/interfaces": [
+        "src/app/interfaces/index.ts"
+      ],
+      "@wtr/services": [
+        "src/app/services/index.ts"
+      ],
+      "@wtr/components": [
+        "src/app/components/index.ts"
+      ],
+      "@wtr/helpers": [
+        "src/app/helpers/index.ts"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

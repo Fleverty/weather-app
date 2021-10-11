@@ -1,0 +1,21 @@
+:host {
+  display: block;
+
+  div {
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(35deg, white, red);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    label, main, footer {
+      display: block;
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+      text-align: center;
+    }
+  }
+}

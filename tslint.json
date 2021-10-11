@@ -145,7 +145,7 @@
     "component-selector": [
       true,
       "element",
-      "app",
+      "wtr",
       "kebab-case"
     ]
   }
